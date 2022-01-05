@@ -6,7 +6,10 @@ body {
 	font-family: "Nunito Sans", sans-serif;
 	background-color: slateblue;
 }
-
+::selection {
+	background-color: white;
+	color: black;
+}
 .section {
 	background-color: rgba(0, 0, 0, 0.3); /* Fallback color */
 	color: white;
